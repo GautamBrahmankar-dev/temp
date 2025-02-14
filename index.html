@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="index.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <title>Virtual Valentine's Day Card</title>
+    </head>
+    <body>
+        <h1 id="main">Hi Ishita!</h1>
+        <div class="container">
+        <div class="envelope-wrapper">
+            <div id="envelope" class="close">
+                <div class="front flap"></div>
+                <div class="front pocket"></div>
+                <div class="letter">
+                    <p class="words line1">Happy Valentines Day!</p>
+                    <p class="words line2">There will never be a day when i don't love you more than life itself, you are my paradise and i never want to be anywhere else 😘</p>
+                </div>
+                <div class="hearts">
+                    <div class="heart a1"></div>
+                    <div class="heart a2"></div>
+                    <div class="heart a3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="reset">
+            <button id="open">Open</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <div class="background">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide"><img src="./img/1.jpg" alt="Image 1"></div>
+                    <div class="slide"><img src="./img/2.jpg" alt="Image 2"></div>
+                    <div class="slide"><img src="./img/3.jpg" alt="Image 3"></div>
+                    <div class="slide"><img src="./img/4.jpg" alt="Image 4"></div>
+                    <div class="slide"><img src="./img/5.jpg" alt="Image 5"></div>
+                    <div class="slide"><img src="./img/6.jpg" alt="Image 6"></div>
+                    <div class="slide"><img src="./img/7.jpg" alt="Image 7"></div>
+                    <div class="slide"><img src="./img/8.jpg" alt="Image 8"></div>
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+            <div class="dots-container">
+                <span class="dot" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+                <span class="dot" data-index="5"></span>
+            </div>
+        </div><div class="imagecontainer">
+            
+        </div>
+
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
